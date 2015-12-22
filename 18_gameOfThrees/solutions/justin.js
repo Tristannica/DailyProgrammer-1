@@ -1,11 +1,21 @@
-function threes(x) {
-    while (x > 1) {
-        var op = (-x - 1) % 3 + 1;
-        console.log(x + ' ' + op);
-        x = (x + op) / 3;
+function threes(input) {
+    while (input > 1) {
+        var op = (-input - 1) % 3 + 1;
+        console.log(input + ' ' + op);
+        input = (input + op) / 3;
     }
     console.log(1);
 }
+
+//slightly different approach using conditionals, also returns the same answer as previous function
+function altThrees(input){
+    if (input === 1) console.log(input);
+    else if (input % 3 === 0) console.log(input + " 0"), altThrees(input / 3);
+    else if (input % 3 === 1) console.log(input + " -1"), altThrees((input - 1) / 3);
+    else console.log(input + " 1"), altThrees((input + 1) / 3);
+}
+
+
 
 //threes(31337357) outputs
 // 31337357 1
