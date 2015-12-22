@@ -1,3 +1,4 @@
+//Solution by Justin Lawson, December 22, 2015
 function threes(input) {
     while (input > 1) {
         var x = (-input - 1) % 3 + 1;
