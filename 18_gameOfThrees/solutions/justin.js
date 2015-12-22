@@ -1,8 +1,8 @@
 function threes(input) {
     while (input > 1) {
-        var op = (-input - 1) % 3 + 1;
-        console.log(input + ' ' + op);
-        input = (input + op) / 3;
+        var x = (-input - 1) % 3 + 1;
+        console.log(input + ' ' + x);
+        input = (input + x) / 3;
     }
     console.log(1);
 }
