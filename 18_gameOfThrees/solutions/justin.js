@@ -15,8 +15,6 @@ function altThrees(input){
     else console.log(input + " 1"), altThrees((input + 1) / 3);
 }
 
-
-
 //threes(31337357) outputs
 // 31337357 1
 // 10445786 1
