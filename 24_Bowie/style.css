@@ -1,0 +1,22 @@
+.doughnut {
+    border: 50px solid rgba(1,158,153,.9);
+    border-radius: 100px;
+    height:100px;
+    width:100px;
+    position: absolute;
+
+}
+
+.doughnut2 {
+    border: 50px solid rgba(229,2,141,.9);
+    border-radius: 100px;
+    height:100px;
+    width:100px;
+    position: absolute;
+    top: 60px;
+    mix-blend-mode: multiply;
+}
+
+.donutbox{
+    
+}
