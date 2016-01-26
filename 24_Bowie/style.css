@@ -21,6 +21,14 @@
     mix-blend-mode: multiply;
 }
 
-.donutbox{
-
+.davidBowie{
+    position: absolute;
+    top: 470px;
+    font-weight:lighter;
+    font-size: 3vw;
+    font-family: sans-serif;
+    background-color: transparent;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    color: gray;
 }
