@@ -1,0 +1,63 @@
+.backdrop {
+	width: 0px;
+	height: 0px;
+	border-top: 400px solid rgb(146, 146, 146);
+	border-left: 510px solid         rgb(21,21,21);
+	border-right: 500px solid         rgb(21,21,21);
+  	border-bottom: 450px solid         rgb(21,21,21);
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(146, 146, 146);
+  margin-top: -80px;
+  margin-left: 485px;
+}
+
+.circle-2{
+  width: 25px;
+  height: 50px;
+  border-radius: 50px 0 0 50px;
+  background-color: rgb(21,21,21);
+  margin-top: -50px;
+  margin-left: 485px;
+}
+
+.circle-3{
+  width: 100px;
+  height: 200px;
+  border-radius: 100px 0px 0 100px;
+  background-color: rgb(146,146,146);
+  margin-top: -400px;
+  margin-left: 410px;
+}
+
+.circle-4{
+  width: 100px;
+  height: 200px;
+  border-radius: 0 100px 100px 0;
+  background-color: rgb(57,57,57);
+  margin-top: -200px;
+  margin-left: 510px;
+}
+
+.backdrop-2{
+  width: 0px;
+  height: 0px;
+  border-top:400px solid rgb(57,57,57);
+  border-left: 510px solid rgb(21,21,21);
+  position: absolute;
+  z-index:1;
+  margin-right: 510px;
+
+}
+
+p{
+  color: #fff;
+  margin-top: 180px;
+  margin-left: 350px;
+  font-family: sans-serif;
+  letter-spacing: 1vw;
+}
